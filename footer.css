@@ -1,0 +1,16 @@
+#userpic {
+  border-radius: 100%;
+  max-width:200px;
+  max-height:200px;
+}
+
+#userme {
+  position: relative;
+  left: 40%;
+}
+
+#userb {
+  position: relative;
+  top: 10px;
+  left: 5%;
+}
