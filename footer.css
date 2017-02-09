@@ -6,11 +6,16 @@
 
 #userme {
   position: relative;
-  left: 40%;
+  left: 42%;
 }
 
 #userb {
   position: relative;
   top: 10px;
-  left: 5%;
+  left: 35px;
+}
+
+#barraprogresso {
+  position: relative;
+  top: 150px;
 }
