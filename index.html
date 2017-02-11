@@ -1,83 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Ronaldinho é dibre</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
-  <link rel="stylesheet" type="text/css" href="minimal.css"/>
-  <link rel="stylesheet" type="text/css" href="footer.css"/>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script src=""></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 3: Layouts</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
-
 <body>
-  <div class="navbar navbar-default navbar-fixed-top">
     <div class="container">
-      <div class="navbar-header">
-        <a href="#" class="navbar-brand">Ronaldinho</a>
-        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
+      <div class="container">
+         <header class="row">
 
-      <div class="navbar-collapse collapse" id="navbar-main">
-        <ul class="nav navbar-nav">
-          <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">Dibres <span class="caret"></span></a>
-            <ul class="dropdown-menu" aria-labelledby="themes">
-              <li><a href="#">Default</a></li>
-              <li class="divider"></li>
-              <li><a href="#">Caneta</a></li>
-              <li><a href="#">Carretilha</a></li>
-              <li><a href="#">Chapéu</a></li>
-              <li><a href="#">Elástico</a></li>
-              <li><a href="#">Letra</a></li>
-              <li><a href="#">Calcanhar</a></li>
-            </ul>
-          </li>
+         </header>
+         <div class="row">
+             <div role="main">
+                 <!-- conteudo principal -->
+                 <div class="col-sm-6">
+                   <img class="img-responsive" src="img/titulo.png"/>
+                 </div>
+                 <div class="col-sm-6">
+                   <img class="img-responsive" src="img/icones.png"/>
+                 </div>
+             </div>
+         </div>
+         <footer class="row">
 
-          <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="download">Facebook</a>
-          </li>
-          <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="download">Instagram</a>
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="download">Twitter</a>
-            </li>
-          </li>
-        </ul>
-
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="" target="_blank">@proteossomo</a></li>
-        </ul>
-
+         </footer>
       </div>
     </div>
 
-
-    <div class="container">
-      <div id="banner">
-        <h1></h1>
-
-        <div  id="barraprogresso"  class="progress progress-striped active">
-          <div class="progress-bar" style="width: 90%"></div>
-        </div>
-      </div>
-
-    </div>
-
-      <div class="page-header">
-      </div>
-
-    <footer>
-        <div id="userme">
-          <img id="userpic" src="img/ronaldinho.jpg"/>
-          <p id="userb">Ronaldinho @dibre</p>
-        </div>
-    </footer>
-
-  </body>
-  </html>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
