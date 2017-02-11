@@ -1,43 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 3: Layouts</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Integração INFOBIO BIOMED 2017</title>
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
 </head>
 <body>
+  <div class="container-fluid">
     <div class="container">
-      <div class="container">
-         <header class="row">
+      <div class="row">
+        <div role="main">
+          <!-- conteudo principal -->
+          <div class="col-sm-6">
+            <img class="img-responsive" id="first" src="img/titulo.png"/>
+          </div>
 
-         </header>
-         <div class="row">
-             <div role="main">
-                 <!-- conteudo principal -->
-                 <div class="col-sm-6">
-                   <img class="img-responsive" src="img/titulo.png"/>
-                 </div>
-                 <div class="col-sm-6">
-                   <img class="img-responsive" src="img/icones.png"/>
-                 </div>
-             </div>
-         </div>
-         <footer class="row">
+          <div class="col-sm-6" id="lateral">
+            <table>
+              <tr>
+                <td><img class="img-responsive" id="icone" src="img/micro.png"/></td>
+                <td><img class="img-responsive"  id="icone" src="img/copo.png"/></td>
+                <td><img class="img-responsive"  id="icone" src="img/lata.png"/></td>
+              </tr>
+              <tr>
+                <td><img class="img-responsive"  id="icone" src="img/ceva.png"/></td>
+                <td><img class="img-responsive"  id="icone" src="img/drink.png"/></td>
+                <td><img class="img-responsive" id="icone" src="img/console.png"/></td>
+              </tr>
+            </table>
 
-         </footer>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <button type="button" class="btn btn-primary btn-lg">COMPRE JÁ</button>
       </div>
     </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <footer class="row">
+    </footer>
+
+  </div>
+
+  <script src="js/jquery.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/ui.js"></script>
 </body>
 </html>
